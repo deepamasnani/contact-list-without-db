@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+.contact .details{
+    margin-bottom: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    color: aliceblue;
+    height: 30px;
+    line-height: 0.2rem;
+    width: 90%;
+  
+}
+.contact{
+    background-color: rgb(53, 141, 241);
+    display: flex;
+    border: 1px solid white;
+}
+.contact:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.details p{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 1% ;
+    /* margin-right: 2%; */
+}
+#contact-list-container{
+    margin-left: 36% ;
+    width: 400px;
+}
+.contact .delete{
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.contact .delete a{
+    color: white;
+    background-color: red;
+}
+
+#contact-list-container ul{
+    
+list-style-type: none;
+
+padding: 0;
+
+}
+
+form{
+    text-align: center;
+    margin-left: 1.5%;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+}
+button{
+    background-color: grey;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
